@@ -1,0 +1,196 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #ffdab3;
+}
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+ /*--- navigation bar ---*/
+.navbar {
+	background: #ffdab3;
+}
+
+.nav-link, .navbar-brand {
+	color: #A52A2A;
+	cursor: pointer;
+	font-family: Gelato;
+	font-weight: 700;
+	font-size: 200%;
+}
+
+.navbar-brand img {
+	height: 10px;
+	width: 10px;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.header {
+	position: relative;
+	
+
+}
+
+img {
+	vertical-align: middle;
+	padding: 0;
+}
+
+.feature-title {
+	color: #333;
+	font-family: Gelato;
+	text-align: center;
+	
+}
+
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -60%);
+	text-align: center;
+}
+.navbar-brand img {
+	height: 100px;
+	width: 280px;
+}
+
+.description h2 {
+	color: #6ab446;
+}
+
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.description button {
+	border:1px solid #6ab446;
+	background:;
+	border-radius: 0;
+	color:#fff;
+	left: 50%;
+	position: absolute;
+	top: 115%;
+	transform: translate(-50%, -60%);
+}
+
+.description button:hover {
+	border:1px solid #fff;
+	background:#fff;
+	color:#000;
+}
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+
+.feature-title {
+	color: #333;
+	font-size: 400%;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+	height: 150px;
+	width: 200px;
+}
+
+.features .form-control, .features input {
+	border-radius: 0;
+}
+
+.features .btn {
+	background-color: #589b37;
+	border: 1px solid #589b37;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.features .btn:hover {
+	background-color: #333;
+	border: 1px solid #333;
+}
+
+.page-footer {
+	background-color: #222;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
+.con {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 50%;
+  
+}
+
+.img { 
+	width: 50%;
+	height: 30%;
+}
+	
+@media (max-width: 575.98px) {
+
+	.description {
+		left: 0;
+		padding: 0 15px;
+		position: absolute;
+		top: 10%;
+		transform: none;
+		text-align: center;
+	}
+
+	.description h1 {
+		font-size: 2em;
+	}
+
+	.description p {
+		font-size: 1.2rem;
+	}
+
+	.features {
+		margin: 0;
+	}	
+}

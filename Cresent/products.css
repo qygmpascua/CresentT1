@@ -1,0 +1,146 @@
+body {
+	background-image: url('images/bg.png');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	background-size: cover;
+}
+
+ /*--- navigation bar ---*/
+.navbar {
+	background: #ffdab3;
+}
+
+.nav-link, .navbar-brand {
+	color: #A52A2A;
+	cursor: pointer;
+	font-family: Gelato;
+	font-weight: 700;
+	font-size: 200%;
+}
+
+.navbar-brand img {
+	height: 100px;
+	width: 280px;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.products h2 {
+	text-align: center;
+	font-family: Gelato;
+	font-weight: 700;
+	font-size: 400%;
+	padding: 20px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+	width: 80%;
+	margin: auto;
+}
+
+h1 {
+	font-size: 50px;
+	word-break: break-all;
+}
+
+.note {
+	color: red;
+}
+
+.row {
+	margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row, .row > .column {
+	padding: 2%;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 49.45%;
+	display: none; /* Hide all elements by default */
+}
+
+/* Create three equal columns that floats next to each other */
+.column4 { 
+	float: left;
+	width: 33.33%; 
+	padding: 20px;
+}
+
+/* Clear floats after rows */ 
+.row4:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Content */
+.content {
+	background-color: #ffdab3;
+	padding: 10px;
+}
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+	display: block;
+}
+
+.page-footer {
+	background-color: #222;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
+
+@media (max-width: 575.98px) {
+
+	.description {
+		left: 0;
+		padding: 0 15px;
+		position: absolute;
+		top: 10%;
+		transform: none;
+		text-align: center;
+	}
+
+	.description h1 {
+		font-size: 2em;
+	}
+
+	.description p {
+		font-size: 1.2rem;
+	}
+
+	.features {
+		margin: 0;
+	}
+	.city {
+		background-color: tomato;
+		color: white;
+		text-align: center;
+	}
+}
+

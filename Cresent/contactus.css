@@ -1,0 +1,45 @@
+body {
+	background-image: url('images/bg.png');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	background-size: cover;
+}
+
+.container {
+	margin: 25x auto;
+	width: 500px;
+	padding: 30px 25px;
+	color: #D2691E;
+	font-family: Gelato;
+	font-size: 50px;
+
+}
+.container h2 {
+	font-size: 100px;
+	text-align: center;
+	
+}
+.form-group {
+
+	color: #D2691E;
+    margin: 0px auto 25px;
+    font-size: 50px;
+    font-weight: 300;
+	font-family: Gelato;
+   
+}
+.form-control {
+	   height: 50px;
+       width: 400px;
+	   margin: 0px auto 25px;
+	   
+}
+.form-group textarea {
+    width: 400%;
+    height: 300px;
+    line-height: 150%;
+    resize:vertical;
+}
+.btn btn-default {
+	width: 200%;
+}
